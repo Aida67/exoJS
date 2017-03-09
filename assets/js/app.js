@@ -1,6 +1,6 @@
 //REVISIONS
-// Declarez une variable nommée "boucler" contenant true
 
+// Declarez une variable nommée "boucler" contenant true
 
 // Declarez un tableau members contenant Aida67, lapie002, anneserrano, Jennysmille, nunkabuk, RCosson, kaonb-ax, FerEmilie, crazychouwi, KiluaZoldyc, patatobeur, Sam11360, elo062, hermeline, Biciclet,
 
@@ -18,3 +18,28 @@
 
 
 // FIN COURS AJAX
+
+
+var boucler = true;
+
+var tab=["Aida67", "lapie002", "anneserrano", "Jennysmille", "nunkabuk", "RCosson", "kaonb-ax", "FerEmilie", "crazychouwi", "KiluaZoldyc", "patatobeur", "Sam11360", "elo062", "hermeline", "Biciclet"];
+
+for (var i=0; i<tab.length;i++) {
+
+/*console.log(tab[i]);*/
+
+switch (tab[i]) {
+
+  case "Aida67":
+
+  console.log("Affiche "+"Aida67");
+
+  break;
+
+  default:
+
+  console.log(tab[i]);
+
+  break;
+}
+}
